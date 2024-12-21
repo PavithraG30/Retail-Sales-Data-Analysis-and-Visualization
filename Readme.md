@@ -78,21 +78,22 @@ The dataset contains the following columns:
 
 ## Project Structure
 
-Retail-Sales-Analysis/
-│
-├── data/
-│   ├── retail_sales_dataset.csv          # The raw dataset used for analysis
-│   ├── queries.sql                       # MySQL queries executed for insights
-│
-├── visualizations/
-│   ├── dashboard.pdf                     # PDF export of Tableau dashboard
-│   ├── images/                           # Folder containing visualization images
-│       ├── monthly_revenue.png           # Image for monthly revenue
-│       ├── revenue_by_category.png       # Image for revenue by product category
-│
-├── README.md                              # Project description and documentation
-
-
+Retail-Sales-Data-Analysis-and-Visualization/
+├── data/                   # Folder for datasets and raw files
+│   └── retail_sales_dataset.csv
+├── scripts/                # SQL scripts and related files
+│   └── Retail.sql
+├── visualizations/         # All visual outputs and charts
+│   ├── Monthly Revenue.png
+│   ├── Product Category.png
+│   └── Retail Sales Analysis.png
+├── models/                 # Database or ER diagrams
+│   └── EER.mwb
+├── reports/                # Final reports or PDFs
+│   └── Retail_Sales_Analysis.pdf
+├── dashboards/             # Tableau workbooks
+│   └── Retail_Sales_Analysis.twbx
+├── README.md               # Project overview
 
 ---
 
